@@ -4,8 +4,16 @@ This project use [JSON Server](https://github.com/typicode/json-server) for full
 
 ## Install
 
-`$ npm install -g json-server`.
+```bash
+$ npm install -g json-server
+```
+
+## Frontend
+
+Before you run server, you must put builded frontend: [cookbook](https://github.com/mkozina/cookbook) to `./public` directory.
 
 ## Run server
 
-`$ json-server --watch db.json --routes routes.json`.
+```bash
+$ node app.js
+```
