@@ -1,6 +1,7 @@
 # cookbook-backend
 
-This project use [JSON Server](https://github.com/typicode/json-server) for full fake REST API.
+This project use [JSON Server](https://github.com/typicode/json-server) for full fake REST API.  
+Frontend: [cookbook](https://github.com/mkozina/cookbook).
 
 ## Install
 
@@ -8,11 +9,19 @@ This project use [JSON Server](https://github.com/typicode/json-server) for full
 $ npm install -g json-server
 ```
 
-## Frontend
+## Development server
 
-Before you run server, you must put builded frontend ([cookbook](https://github.com/mkozina/cookbook)) to `./public` directory.
+First run:
+
+```bash
+$ json-server --watch db.json --routes routes.json
+```
+
+Then run [frontend](https://github.com/mkozina/cookbook) dev server.
 
 ## Run server
+
+Before you run server, you must put builded [frontend](https://github.com/mkozina/cookbook) to `./public` directory.
 
 ```bash
 $ npm start
