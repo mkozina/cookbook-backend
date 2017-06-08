@@ -1,0 +1,20 @@
+{
+  "name": "cookbook-backend",
+  "version": "1.0.0",
+  "description": "Backend for Cookbook app",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mkozina/cookbook-backend.git"
+  },
+  "author": "Marcin Kozina",
+  "license": "MPL-2.0",
+  "bugs": {
+    "url": "https://github.com/mkozina/cookbook-backend/issues"
+  },
+  "homepage": "https://github.com/mkozina/cookbook-backend#readme"
+}

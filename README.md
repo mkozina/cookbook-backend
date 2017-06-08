@@ -10,10 +10,10 @@ $ npm install -g json-server
 
 ## Frontend
 
-Before you run server, you must put builded frontend: [cookbook](https://github.com/mkozina/cookbook) to `./public` directory.
+Before you run server, you must put builded frontend ([cookbook](https://github.com/mkozina/cookbook)) to `./public` directory.
 
 ## Run server
 
 ```bash
-$ node app.js
+$ npm start
 ```
